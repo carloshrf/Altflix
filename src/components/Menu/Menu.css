@@ -1,6 +1,10 @@
 .Logo {
   max-width: 168px;
 }
+
+nav a {
+  padding-top: 5px;
+}
 @media (max-width: 800px) {
   .Logo {
     max-width: 105px;
