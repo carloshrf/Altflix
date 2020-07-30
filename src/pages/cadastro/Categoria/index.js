@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 
-import { Link } from 'react-router-dom';
-
+import Button from '../../../components/Button';
 import FormField from '../../../components/FormField';
 
 export default function CadastroCategoria() {
@@ -12,14 +12,14 @@ export default function CadastroCategoria() {
     cor: '',
   };
 
-  const [ categorias, setCategorias ] = useState([]);
-  const [ values, setValues ] = useState(valoresIniciais);
+  const [categorias, setCategorias] = useState([]);
+  const [values, setValues] = useState(valoresIniciais);
 
   function setValue(chave, valor) {
     setValues({
       ...values,
       [chave]: valor,
-    })
+    });
   }
 
   function handleSubmit(e) {
@@ -31,67 +31,63 @@ export default function CadastroCategoria() {
 
   function handleChange(e) {
     const { value } = e.target;
-    console.log(values);
-    console.log(value, e.target.getAttribute('name'));
 
     setValue(
       e.target.getAttribute('name'),
-      value
+      value,
     );
   }
 
   return (
     <PageDefault>
-      <h1>Página de Cadastro de Categoria: { values.nome }</h1>
+      <h1>
+        Página de Cadastro de Categoria:
+        {' '}
+        { values.nome }
+      </h1>
 
       <form onSubmit={handleSubmit}>
 
-      <FormField
-        label="Nome da categoria"
-        type="text"
-        name="nome"
-        value={values.nome}
-        onChange={handleChange}
-      />
+        <FormField
+          label="Nome da categoria"
+          type="text"
+          name="nome"
+          value={values.nome}
+          onChange={handleChange}
+        />
 
-      <div>
-        <label>
-          Descrição:
-          <textarea
-            type="text"
-            name="descricao"
-            value={values.descricao}
-            onChange={handleChange}
-          />
-        </label>
-      </div>
+        <FormField
+          label="Descrição"
+          type="textarea"
+          name="descricao"
+          value={values.descricao}
+          onChange={handleChange}
+        />
 
-      <FormField
-        label="Cor"
-        type="color"
-        name="cor"
-        value={values.cor}
-        onChange={handleChange}
-      />
+        <FormField
+          label="Cor"
+          type="color"
+          name="cor"
+          value={values.cor}
+          onChange={handleChange}
+        />
 
-        <button>
+        <Button>
           Cadastrar
-        </button>
+        </Button>
       </form>
 
       <ul>
-        {categorias.map((categoria, indice) => {
-          return (
-            <li key={`${categoria}${indice}`}>
-              {categoria.nome}
-            </li>
-          );
-        })}
+        {categorias.map((categoria, indice) => (
+          <li key={`${categoria}${indice}`}>
+            {categoria.nome}
+          </li>
+        ))}
       </ul>
 
       <Link to="/">
         Ir para home
       </Link>
     </PageDefault>
-  )
+  );
 }
