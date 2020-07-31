@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 
@@ -21,6 +21,18 @@ export default function CadastroCategoria() {
       [chave]: valor,
     });
   }
+
+  useEffect(() => {
+    const URL_TOP = 'http://localhost:8080/categorias';
+
+    fetch(URL_TOP)
+      .then(async (requestResponse) => {
+        const response = await requestResponse.json();
+        setCategorias([
+          ...response,
+        ]);
+      });
+  }, []);
 
   function handleSubmit(e) {
     e.preventDefault();
@@ -75,6 +87,12 @@ export default function CadastroCategoria() {
           Cadastrar
         </Button>
       </form>
+
+      {categorias.length === 0 && (
+        <div>
+          Carregando...
+        </div>
+      )}
 
       <ul>
         {categorias.map((categoria) => (
