@@ -42,7 +42,6 @@ export default function CadastroCategoria() {
     <PageDefault>
       <h1>
         Página de Cadastro de Categoria:
-        {' '}
         { values.nome }
       </h1>
 
@@ -78,8 +77,8 @@ export default function CadastroCategoria() {
       </form>
 
       <ul>
-        {categorias.map((categoria, indice) => (
-          <li key={`${categoria}${indice}`}>
+        {categorias.map((categoria) => (
+          <li key={categoria.nome}>
             {categoria.nome}
           </li>
         ))}
