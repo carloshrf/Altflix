@@ -10,24 +10,6 @@
       }
     },
     {
-      "id": 2,
-      "titulo": "Back End",
-      "cor": "#00c86f",
-      "link_extra": {
-        "text": "Formação de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
-      }
-    },
-    {
-      "id": 3,
-      "titulo": "Data Science e Inteligencia Artificial",
-      "cor": "#9cd33b",
-      "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/cursos-online-mobile"
-      }
-    },
-    {
       "id": 4,
       "titulo": "Filmes",
       "cor": "orange"
@@ -40,6 +22,18 @@
         "text": "Formação de Jogos na Alura",
         "url": "https://www.alura.com.br/cursos-online-front-end"
       }
+    },
+    {
+      "titulo": "Teste",
+      "descricao": "123",
+      "cor": "",
+      "id": 6
+    },
+    {
+      "titulo": "teste3",
+      "descricao": "testandodesc",
+      "cor": "#000",
+      "id": 8
     }
   ],
   "videos": [
@@ -60,12 +54,6 @@
       "categoriaId": 1,
       "titulo": "Componentização com VanillaJS #AluraMais",
       "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
-    },
-    {
-      "id": 4,
-      "categoriaId": 3,
-      "titulo": "Como é trabalhar com Data Science? | Formações Alura",
-      "url": "https://www.youtube.com/watch?v=LatCKpcOMakhttps://www.youtube.com/watch?v=UutE1pQzA6Y"
     },
     {
       "titulo": "Video padrão",
@@ -130,8 +118,8 @@
     {
       "titulo": "Video padrão",
       "url": "https://www.youtube.com/watch?v=jOAU81jdi-c",
-      "categoriaId": 2,
-      "id": 15
+      "categoriaId": 4,
+      "id": 16
     }
   ]
 }
