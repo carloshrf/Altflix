@@ -1,125 +1,90 @@
 {
   "categorias": [
     {
-      "id": 1,
-      "titulo": "Front End",
-      "cor": "#6801ff",
-      "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
-      }
+      "titulo": "Lives Victor Lacerda",
+      "descricao": "Lives do Youtube do Victor Lacerda.",
+      "cor": "#ff0000",
+      "id": 1
     },
     {
-      "id": 4,
-      "titulo": "Filmes",
-      "cor": "orange"
+      "titulo": "AnimesNerdExtreme",
+      "descricao": "Videos full aleatórios",
+      "cor": "#22004d",
+      "id": 2
     },
     {
-      "id": 5,
-      "titulo": "Games",
-      "cor": "red",
-      "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
-      }
-    },
-    {
-      "titulo": "Teste",
-      "descricao": "123",
-      "cor": "",
-      "id": 6
-    },
-    {
-      "titulo": "teste3",
-      "descricao": "testandodesc",
-      "cor": "#000",
-      "id": 8
+      "titulo": "Terminal Montage",
+      "descricao": "Cool retro game vídeos",
+      "cor": "#002aff",
+      "id": 3
     }
   ],
   "videos": [
     {
-      "id": 1,
+      "titulo": "FREE FIRE AO VIVO / RUMO AO DESAFIANTE - MESTRE + REACT + M X1 DOS CRIA / SOLO RANKED LIVE OND /",
+      "url": "https://www.youtube.com/watch?v=fA8npajQvvU",
       "categoriaId": 1,
-      "titulo": "SEO com React",
-      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+      "id": 1
     },
     {
-      "id": 2,
+      "titulo": "FREE FIRE AO VIVO / SERVIDORES EM MANUTENÇÃO + REACT + M X1 DOS CRIA / SOLO RANKED LIVE OND /",
+      "url": "https://www.youtube.com/watch?v=tGxOgaNpXfY",
       "categoriaId": 1,
-      "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-      "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+      "id": 2
     },
     {
-      "id": 3,
+      "titulo": "FREE FIRE AO VIVO / RUMO AO DESAFIANTE - MESTRE + REACT + M X1 DOS CRIA / SOLO RANKED LIVE OND /",
+      "url": "https://www.youtube.com/watch?v=qDX_5VrKR2w",
       "categoriaId": 1,
-      "titulo": "Componentização com VanillaJS #AluraMais",
-      "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+      "id": 3
     },
     {
-      "titulo": "Video padrão",
-      "url": "https://www.youtube.com/watch?v=jOAU81jdi-c",
+      "titulo": "FREE FIRE AO VIVO / RUMO AO DESAFIANTE - MESTRE + REACT + M X1 DOS CRIA / SOLO RANKED LIVE OND /",
+      "url": "https://www.youtube.com/watch?v=mA7Xz_LolBo",
+      "categoriaId": 1,
+      "id": 4
+    },
+    {
+      "titulo": "FREE FIRE - AO VIVO 🔥 SORTEIO DO DINO ANGELICAL CODIGUIN 🔥 #ELGATOMENOTA 🔥 LIVE ON #40",
+      "url": "https://www.youtube.com/watch?v=qSWIx8qloSM",
       "categoriaId": 1,
       "id": 5
     },
     {
-      "titulo": "Video padrão",
-      "url": "https://www.youtube.com/watch?v=jOAU81jdi-c",
+      "titulo": "Construindo Nossa Casa (Minecraft: Aventureiros Ep.#2)",
+      "url": "https://www.youtube.com/watch?v=Sib9PLwMMWU",
       "categoriaId": 1,
       "id": 6
     },
     {
-      "titulo": "Video padrão",
-      "url": "https://www.youtube.com/watch?v=jOAU81jdi-c",
-      "categoriaId": 1,
+      "titulo": "333-333-333",
+      "url": "https://www.youtube.com/watch?v=Ym7dmZZzHwE",
+      "categoriaId": 2,
       "id": 7
     },
     {
-      "titulo": "Video padrão",
-      "url": "https://www.youtube.com/watch?v=jOAU81jdi-c",
-      "categoriaId": 1,
+      "titulo": "dynavision 106 jogos - 106 Games",
+      "url": "https://www.youtube.com/watch?v=mVuqFpJgEzg&t=10s",
+      "categoriaId": 2,
       "id": 8
     },
     {
-      "titulo": "Video padrão",
-      "url": "https://www.youtube.com/watch?v=jOAU81jdi-c",
-      "categoriaId": 1,
+      "titulo": "growtopia primeiras construções Pt Br",
+      "url": "https://www.youtube.com/watch?v=_U7_uCx1hvc",
+      "categoriaId": 2,
       "id": 9
     },
     {
-      "titulo": "Video padrão",
-      "url": "https://www.youtube.com/watch?v=jOAU81jdi-c",
-      "categoriaId": 1,
+      "titulo": "Something About Super Mario World SPEEDRUN ANIMATED (Loud Sound Warning) 🍄",
+      "url": "https://www.youtube.com/watch?v=_bE3PCRHq-A",
+      "categoriaId": 3,
       "id": 10
     },
     {
-      "titulo": "Video padrão",
-      "url": "https://www.youtube.com/watch?v=jOAU81jdi-c",
-      "categoriaId": 1,
+      "titulo": "Something About Kirby's Adventure (Loud Sound Warning) (づ｡◕‿◕｡)づ⭐️",
+      "url": "https://www.youtube.com/watch?v=fC3pEQB3_Tc",
+      "categoriaId": 3,
       "id": 11
-    },
-    {
-      "titulo": "Video padrão",
-      "url": "https://www.youtube.com/watch?v=jOAU81jdi-c",
-      "categoriaId": 1,
-      "id": 12
-    },
-    {
-      "titulo": "Video padrão",
-      "url": "https://www.youtube.com/watch?v=jOAU81jdi-c",
-      "categoriaId": 1,
-      "id": 13
-    },
-    {
-      "titulo": "Video padrão",
-      "url": "https://www.youtube.com/watch?v=jOAU81jdi-c",
-      "categoriaId": 1,
-      "id": 14
-    },
-    {
-      "titulo": "Video padrão",
-      "url": "https://www.youtube.com/watch?v=jOAU81jdi-c",
-      "categoriaId": 4,
-      "id": 16
     }
   ]
 }
