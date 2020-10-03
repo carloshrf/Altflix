@@ -3,18 +3,21 @@
     {
       "titulo": "Lives Victor Lacerda",
       "descricao": "Lives do Youtube do Victor Lacerda.",
+      "url": "https://www.youtube.com/channel/UC2yPozuKBiGj8EvDXR-gkAQ",
       "cor": "#ff0000",
       "id": 1
     },
     {
       "titulo": "AnimesNerdExtreme",
       "descricao": "Videos full aleatórios",
+      "url": "https://www.youtube.com/channel/UCconPpAV4ulHHXQe7KELRVw",
       "cor": "#22004d",
       "id": 2
     },
     {
       "titulo": "Terminal Montage",
       "descricao": "Cool retro game vídeos",
+      "url": "https://www.youtube.com/c/TerminalMontage/",
       "cor": "#002aff",
       "id": 3
     }

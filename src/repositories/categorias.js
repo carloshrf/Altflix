@@ -9,7 +9,6 @@ function getAll() {
         const resposta = await respostaDoServidor.json();
         return resposta;
       }
-
       throw new Error('Não foi possível receber os dados :(');
     });
 }

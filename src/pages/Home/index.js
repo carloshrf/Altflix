@@ -13,24 +13,26 @@ const Warning = styled.h2`
 
 function Home() {
   const [dadosIniciais, setDadosIniciais] = useState([]);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
+    setLoading(true);
     categoriasRepository.getAllWithVideos()
       .then((categoriasComVideos) => {
-        console.log('categorias', categoriasComVideos);
         setDadosIniciais(categoriasComVideos);
+        setLoading(false);
       })
       .catch((err) => {
         console.log(err.message);
+        setLoading(false);
       });
   }, []);
 
   return (
     <PageDefault paddingAll={0}>
 
-      {dadosIniciais.length === 0 && (<div>Loading...</div>)}
-
-      {dadosIniciais.length >= 1
+      {/* eslint-disable-next-line no-nested-ternary */}
+      {loading ? <span>Carregando...</span> : dadosIniciais.length >= 1 && dadosIniciais !== []
         ? dadosIniciais.map((categoria, indice) => {
           if (indice === 0) {
             return (
